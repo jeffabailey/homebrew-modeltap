@@ -1,24 +1,23 @@
+
 class Modeltap < Formula
   desc "TUI for managing local AI models across Ollama, HF, LM Studio, Atomic Chat"
   homepage "https://github.com/jeffabailey/modeltap"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT OR Apache-2.0"
-
   on_macos do
     on_arm do
-      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.3/modeltap-0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "139eaa62c93cf01fa4f38033d13d3ec57c7928917214b192253ab880abce31c2"
+      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.4/modeltap-0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "5ca76cfe8b7c1ce40d4cd796cd36ed0036d2ead031dcad28dc5ab506297638c9"
     end
   end
-
   on_linux do
     on_arm do
-      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.3/modeltap-0.2.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4539d283d1aba20937a41f05af00b1182f57a3798cd18b9124dbeefb1070b4a9"
+      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.4/modeltap-0.2.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "36f029b6295c1fb7d4dd43af40f1e6c8284b2489225481a503f8ab21bc9df94a"
     end
     on_intel do
-      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.3/modeltap-0.2.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d991f401f3c4f5f179455cd1f37dfd54cbbe81081f521edbf5f32821291bc56c"
+      url "https://github.com/jeffabailey/modeltap/releases/download/v0.2.4/modeltap-0.2.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a246c16c6ee13f0a2ea6be4088c885cdaa359e257e6298cb15d13ff59d79f156"
     end
   end
 
